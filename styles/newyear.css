@@ -68,11 +68,21 @@
 .sec-bg {
     background-image: linear-gradient(to right, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0));
 }
-
-
+.special-tag {
+    color: #FF0000;
+}
+.btn-primary {
+    background-color: #FF0000;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
 
 /* header part */
-header {
+.header-aling {
     margin: 50px 140px;
 }
 
@@ -82,6 +92,7 @@ header {
 
 .banner-sec {
     height: 600px;
+    border-radius: 16px;
 }
 .banner {
     background-image: url(../images/Banner\ Image.png);
@@ -169,4 +180,29 @@ header {
 .des-part {
     margin-top: 126px;
     margin-left: 126px;
+}
+
+/* main styles goes on from here */
+
+.main-align {
+    height: 482px;
+    margin: 0 140px;
+}
+.description {
+    text-align: center;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0));
+    border-radius: 16px;
+}
+.description-topics {
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    line-height: 56px;
+}
+.description-details {
+    margin: 100px 36px 110x 385px;
 }
